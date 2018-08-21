@@ -1,4 +1,4 @@
-FROM 100.125.0.198:20202/hwcpe-cn-north-1/dockerhub-java:8-jre-alpine
+FROM 192.168.3.88:20202/default/dockerhub-java:8-jre-alpine
 
 WORKDIR /home/apps/
 ADD target/dsdsdswwdw-0.0.1-SNAPSHOT.jar .
